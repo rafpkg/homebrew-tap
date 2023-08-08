@@ -16,6 +16,12 @@ Alternatively, you can add the codeberg version:
         $ brew tap rafbrew/tap https://codeberg.org/rafbrew/homebrew-tap
         $ brew tap --force-auto-update rafbrew/tap
 
+Note: If you see a strange syntax error with one of the below formulae,
+I've probably done a forced push to the repository. Do this then try again:
+
+        $ brew untap rafbrew/tap
+        $ brew tap rafbrew/tap
+
 ## SOFTWARE
 
 Then you can install the following software:

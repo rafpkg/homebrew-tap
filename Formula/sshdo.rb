@@ -25,4 +25,4 @@ class Sshdo < Formula
   end
 end
 
-# vi: set et ts=2 sw=2:q
+# vi: set et ts=2 sw=2:
