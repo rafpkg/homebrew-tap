@@ -54,11 +54,11 @@ Then you can install the following software:
 
         $ brew install noexcuses
 
-## TODO
-
 [*textmail*](https://raf.org/textmail/) - Mail filter to replace MS Word/HTML attachments with plain text
 
         $ brew install textmail
+
+## TODO
 
 [*launchmail*](https://raf.org/launchmail/) - an SMTP client with a *sendmail*-compatible wrapper
 
