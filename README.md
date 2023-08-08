@@ -32,11 +32,11 @@ Then you can install the following software:
 
         $ brew install rawhide
 
-## TODO
-
 [*sshdo*](https://raf.org/sshdo/) - controls which commands may be executed via incoming ssh
 
         $ brew install sshdo
+
+## TODO
 
 [*mved*](https://raf.org/mved/) - carefully rename multiple files and directories
 
