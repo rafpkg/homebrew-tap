@@ -46,11 +46,11 @@ Then you can install the following software:
 
         $ brew install mved
 
-## TODO
-
 [*danectl*](http://raf.org/danectl/) - DNSSEC DANE implementation manager
 
         $ brew install danectl
+
+## TODO
 
 [*noexcuses*](https://raf.org/noexcuses/) - runs important cronjobs until they succeed
 
