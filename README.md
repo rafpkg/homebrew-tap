@@ -50,11 +50,11 @@ Then you can install the following software:
 
         $ brew install danectl
 
-## TODO
-
 [*noexcuses*](https://raf.org/noexcuses/) - runs important cronjobs until they succeed
 
         $ brew install noexcuses
+
+## TODO
 
 [*textmail*](https://raf.org/textmail/) - Mail filter to replace MS Word/HTML attachments with plain text
 
