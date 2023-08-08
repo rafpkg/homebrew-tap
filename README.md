@@ -24,15 +24,15 @@ Then you can install the following software:
 
         $ brew install daemon
 
+[*libslack*](https://libslack.org/) - A *UNIX/C* library of general utilities for programmers with Slack
+
+        $ brew install libslack
+
 [*rawhide*](https://raf.org/rawhide/) - (*rh*) find files using pretty C expressions
 
         $ brew install rawhide
 
 ## TODO
-
-[*libslack*](https://libslack.org/) - A *UNIX/C* library of general utilities for programmers with Slack
-
-        $ brew install libslack
 
 [*sshdo*](https://raf.org/sshdo/) - controls which commands may be executed via incoming ssh
 
