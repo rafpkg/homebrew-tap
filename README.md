@@ -36,11 +36,11 @@ Then you can install the following software:
 
         $ brew install sshdo
 
-## TODO
-
 [*mved*](https://raf.org/mved/) - carefully rename multiple files and directories
 
         $ brew install mved
+
+## TODO
 
 [*danectl*](http://raf.org/danectl/) - DNSSEC DANE implementation manager
 
