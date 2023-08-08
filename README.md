@@ -17,7 +17,7 @@ Alternatively, you can add the codeberg version:
         $ brew tap --force-auto-update rafbrew/tap
 
 Note: If you see a strange syntax error with one of the below formulae,
-I've probably done a forced push to the repository. Do this then try again:
+I've probably done a forced push to the repository. Do this, then try again:
 
         $ brew untap rafbrew/tap
         $ brew tap rafbrew/tap
@@ -25,6 +25,14 @@ I've probably done a forced push to the repository. Do this then try again:
 ## SOFTWARE
 
 Then you can install the following software:
+
+[*mved*](https://raf.org/mved/) - carefully rename multiple files and directories
+
+        $ brew install mved
+
+[*rawhide*](https://raf.org/rawhide/) - (*rh*) find files using pretty C expressions
+
+        $ brew install rawhide
 
 [*daemon*](https://libslack.org/daemon/) - turns other processes into daemons (actually in homebrew/core, not here)
 
@@ -34,17 +42,9 @@ Then you can install the following software:
 
         $ brew install libslack
 
-[*rawhide*](https://raf.org/rawhide/) - (*rh*) find files using pretty C expressions
-
-        $ brew install rawhide
-
 [*sshdo*](https://raf.org/sshdo/) - controls which commands may be executed via incoming ssh
 
         $ brew install sshdo
-
-[*mved*](https://raf.org/mved/) - carefully rename multiple files and directories
-
-        $ brew install mved
 
 [*danectl*](http://raf.org/danectl/) - DNSSEC DANE implementation manager
 
@@ -58,13 +58,11 @@ Then you can install the following software:
 
         $ brew install textmail
 
-## TODO
-
 [*launchmail*](https://raf.org/launchmail/) - an SMTP client with a *sendmail*-compatible wrapper
 
         $ brew install launchmail
 
 [*broadband-usage*](https://raf.org/broadband-usage/) - Home broadband usage meter for SNMP-enabled modem/routers
 
-        $ brew install broaband-usage
+        $ brew install broadband-usage
 
