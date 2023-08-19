@@ -1,8 +1,8 @@
 class Libslack < Formula
   desc "UNIX/C library of general utilities for programmers with Slack"
   homepage "https://libslack.org/"
-  url "https://web.archive.org/web/20230605234008/https://libslack.org/download/libslack-0.7.3.tar.gz"
-  sha256 "b61ece8b36b902a9a8a9b94dd5e64dffafc49de3d1851ea3c0194b579bedd77f"
+  url "https://web.archive.org/web/20230819133003/https://libslack.org/download/libslack-0.7.4.tar.gz"
+  sha256 "094f2ae8d45cbcd678bfba60e47fabceed27fb00dc77c25a63235de9cafc0da6"
   license "GPL-2.0-or-later"
 
   livecheck do
