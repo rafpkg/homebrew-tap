@@ -1,7 +1,7 @@
 class Danectl < Formula
   desc "DNSSEC DANE implementation manager"
   homepage "https://raf.org/danectl/"
-  url "https://web.archive.org/web/20230718143137/https://raf.org/danectl/download/danectl-0.8.4.tar.gz"
+  url "https://github.com/raforg/danectl/releases/download/v0.8.4/danectl-0.8.4.tar.gz"
   sha256 "179730da7e8d7b68f62b92292b7bc883922fa5cb8361eba22666a1fa6886e10e"
   license "GPL-2.0-or-later"
 
