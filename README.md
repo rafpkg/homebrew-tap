@@ -34,9 +34,10 @@ Then you can install the following software:
 
         $ brew install rawhide
 
-[*daemon*](https://libslack.org/daemon/) - turns other processes into daemons (actually in homebrew/core, not here)
+[*daemon*](https://libslack.org/daemon/) - turns other processes into daemons (also in homebrew/core)
 
-        $ brew install daemon
+        $ brew install rafbrew/tap/daemon # For this version (includes config, and --bind on Linux)
+        $ brew install daemon             # For the version in homebrew/core
 
 [*libslack*](https://libslack.org/) - A *UNIX/C* library of general utilities for programmers with Slack
 
