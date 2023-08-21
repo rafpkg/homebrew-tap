@@ -9,18 +9,18 @@ See <https://raf.org> or <https://github.com/raforg> or
 
 To add this tap to your homebrew installation:
 
-        $ brew tap rafbrew/tap
+        $ brew tap rafpkg/tap
 
 Alternatively, you can add the codeberg version:
 
-        $ brew tap rafbrew/tap https://codeberg.org/rafbrew/homebrew-tap
-        $ brew tap --force-auto-update rafbrew/tap
+        $ brew tap rafpkg/tap https://codeberg.org/rafpkg/homebrew-tap
+        $ brew tap --force-auto-update rafpkg/tap
 
 Note: If you see a strange syntax error with one of the below formulae,
 I've probably done a forced push to the repository. Do this, then try again:
 
-        $ brew untap rafbrew/tap
-        $ brew tap rafbrew/tap
+        $ brew untap rafpkg/tap
+        $ brew tap rafpkg/tap
 
 ## SOFTWARE
 
@@ -36,8 +36,8 @@ Then you can install the following software:
 
 [*daemon*](https://libslack.org/daemon/) - turns other processes into daemons (also in homebrew/core)
 
-        $ brew install rafbrew/tap/daemon # For this version (includes config, and --bind on Linux)
-        $ brew install daemon             # For the version in homebrew/core
+        $ brew install rafpkg/tap/daemon # For this version (includes config, and --bind on Linux)
+        $ brew install daemon            # For the version in homebrew/core
 
 [*libslack*](https://libslack.org/) - A *UNIX/C* library of general utilities for programmers with Slack
 
