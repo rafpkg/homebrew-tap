@@ -15,7 +15,7 @@ class Daemon < Formula
   end
 
   def install
-    config_args = ["--prefix=#{prefix}", "--disable-mail-test"]
+    config_args = ["--prefix=#{prefix}"]
     config_args += ["--enable-logind"] if OS.linux?
     system "./configure", *config_args
     system "make"
