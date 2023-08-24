@@ -1,8 +1,8 @@
 class Daemon < Formula
   desc "Turns other processes into daemons"
   homepage "https://libslack.org/daemon/"
-  url "https://github.com/raforg/daemon/releases/download/v0.8.3/daemon-0.8.3.tar.gz"
-  sha256 "bd6fd870ca4761f43f045d72db0f8a0de81a3eac07264bf449b152d7dd899ac0"
+  url "https://github.com/raforg/daemon/releases/download/v0.8.4/daemon-0.8.4.tar.gz"
+  sha256 "fa28859ad341cb0a0b012c11c271814f870482013b49f710600321d379887cd1"
   license "GPL-2.0-or-later"
 
   livecheck do
@@ -15,7 +15,7 @@ class Daemon < Formula
   end
 
   def install
-    config_args = ["--prefix=#{prefix}"]
+    config_args = ["--prefix=#{prefix}", "--disable-mail-test"]
     config_args += ["--enable-logind"] if OS.linux?
     system "./configure", *config_args
     system "make"
@@ -24,7 +24,7 @@ class Daemon < Formula
   end
 
   test do
-    system "/bin/sh", "-c", "[ \"`#{bin}/daemon --version`\" = daemon-0.8.3 ]"
+    system "/bin/sh", "-c", "[ \"`#{bin}/daemon --version`\" = daemon-0.8.4 ]"
     system "/bin/sh", "-c", "#{bin}/daemon --help | grep -q .--bind" if OS.linux?
   end
 end
