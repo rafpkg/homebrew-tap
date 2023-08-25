@@ -1,8 +1,8 @@
 class Libslack < Formula
   desc "UNIX/C library of general utilities for programmers with Slack"
   homepage "https://libslack.org/"
-  url "https://github.com/raforg/libslack/releases/download/v0.7.4/libslack-0.7.4.tar.gz"
-  sha256 "094f2ae8d45cbcd678bfba60e47fabceed27fb00dc77c25a63235de9cafc0da6"
+  url "https://github.com/raforg/libslack/releases/download/v0.7.5/libslack-0.7.5.tar.gz"
+  sha256 "10561805042cf6c28476af110b886c4b695b4f38a119390acbb63996170b1cac"
   license "GPL-2.0-or-later"
 
   livecheck do
@@ -11,7 +11,7 @@ class Libslack < Formula
   end
 
   def install
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--prefix=#{prefix}", "--disable-mail-test"
     system "make"
     system "make", "install"
   end
