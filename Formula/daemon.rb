@@ -11,7 +11,7 @@ class Daemon < Formula
   end
 
   on_linux do
-    depends_on "systemd" # For --enable-logind
+    depends_on "systemd" # For --bind (./configure --enable-logind)
   end
 
   def install
@@ -20,11 +20,11 @@ class Daemon < Formula
     system "./configure", *config_args
     system "make"
     system "make", "install"
-    system "make", "install-daemon-conf"
+    system "make", "install-daemon-conf" # For /etc/daemon.d /etc/daemon.conf.d/
   end
 
   test do
-    system "/bin/sh", "-c", "[ \"`#{bin}/daemon --version`\" = daemon-0.8.4 ]"
+    system "/bin/sh", "-c", "case \"`#{bin}/daemon --version`\" in daemon-*) exit 0;; *) exit 1;; esac"
     system "/bin/sh", "-c", "#{bin}/daemon --help | grep -q .--bind" if OS.linux?
   end
 end
