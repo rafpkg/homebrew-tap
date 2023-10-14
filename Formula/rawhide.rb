@@ -1,8 +1,8 @@
 class Rawhide < Formula
   desc "(rh) find files using pretty C expressions"
   homepage "https://raf.org/rawhide/"
-  url "https://github.com/raforg/rawhide/releases/download/v3.2/rawhide-3.2.tar.gz"
-  sha256 "73d0f755ec3edb07c714255a4fb2a47b52b6225815fc39c5719b8330f94530ce"
+  url "https://github.com/raforg/rawhide/releases/download/v3.3/rawhide-3.3.tar.gz"
+  sha256 "a51a1360ce4763838b29a548a8e49dcf47a93a922bf1df05c8b7d50ecb9ab09d"
   license "GPL-3.0-or-later"
 
   livecheck do
